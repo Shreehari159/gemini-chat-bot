@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # Set up the Streamlit app
-st.title("Welcome to Gemini Chat")
+st.title("Welcome to StellarAI")
 
 # Configure the Google Generative AI with your API key
 genai.configure(api_key="AIzaSyAf4lE0j4NsLAHUICbQjD3WIS8etmeirOY")
