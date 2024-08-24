@@ -1,6 +1,8 @@
 import requests
 import streamlit as st
 
+st.title("Welcome to Image Generator")
+
 API_URL = "https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell"
 headers = {"Authorization": "Bearer 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"}
 
